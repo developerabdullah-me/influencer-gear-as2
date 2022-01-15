@@ -78,6 +78,7 @@ hr {
     border: none;
     color: white;
     padding: 10px 15px;
+    cursor: pointer;
 }
 .banner:hover .bnner-right{
 transform: rotate(35deg) scale(1);
@@ -96,6 +97,7 @@ transform: rotate(35deg) scale(1);
     width: 96px;
     height: 30px;
     margin-right: 56px;
+    cursor: pointer;
 }
 /*===============
  ====photo fream==
@@ -108,7 +110,7 @@ transform: rotate(35deg) scale(1);
     font-size: 24px;
     margin-bottom: 18px;
 }
-.phoo-album{
+.photo-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 31px;
