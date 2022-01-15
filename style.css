@@ -76,7 +76,7 @@ li{
     padding: 10px 15px;
 }
 .banner:hover .bnner-right{
-transform: rotate(35deg) scale(2);
+transform: rotate(35deg) scale(1);
 }
 
 /* shop */
@@ -92,6 +92,14 @@ transform: rotate(35deg) scale(2);
     margin-right: 56px;
 }
 /* photo fream */
+.main-section{
+    margin-top:70px ;
+}
+.titleber {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
 .phoo-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -102,10 +110,10 @@ transform: rotate(35deg) scale(2);
 .photo-fream{
     box-sizing: border-box;
     box-shadow: 2px 2px 9px;
-    height: 394px;
+    height: 397px;
     width: 248px;
-    padding: 10px;
-    border-radius: 5px;  
+    padding: 11px;
+    border-radius: 5px;
 }
 .photo{
     width: 226px;
@@ -117,6 +125,33 @@ transform: rotate(35deg) scale(2);
     height: 270px; */
 }
 .photo-title{}
+.photo-title h3 {
+    font-size: 20px;
+}
+.photo-title h4{
+    font-size: 22px;
+}
+.photo-title p {
+    font-size: 15px;
+}
 .photo-title .fas{
     color: #fb8200;
+}
+.lets-go {
+    display: block;
+    text-align: right;
+    color: #e02c6d;
+}
+/* footer */
+.footer {
+    background-color: #0a0826;
+    color: white;
+    text-align: center;
+    padding: 33px 0;
+}
+.footer a {
+    color: white;
+    padding: 0px  7px;
+    line-height: 37px;
+    font-size: 21px;
 }
