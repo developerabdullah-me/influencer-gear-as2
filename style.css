@@ -28,6 +28,10 @@ li{
     margin: 0 auto;
     padding: 15px 0;
 }
+hr {
+    width: 1011px;
+    margin: auto;
+}
 /*==========================
  ========main css=========
 ============================*/
@@ -79,7 +83,9 @@ li{
 transform: rotate(35deg) scale(1);
 }
 
-/* shop */
+/*=================
+ =====shop=======
+ ================ */
 .shop{
    display: flex;
   justify-content: center;
@@ -91,7 +97,9 @@ transform: rotate(35deg) scale(1);
     height: 30px;
     margin-right: 56px;
 }
-/* photo fream */
+/*===============
+ ====photo fream==
+ ================== */
 .main-section{
     margin-top:70px ;
 }
@@ -120,11 +128,6 @@ transform: rotate(35deg) scale(1);
     height: 216px;
     padding-right: 5px;
 }
-.photo img{
-    /* width: 226px;
-    height: 270px; */
-}
-.photo-title{}
 .photo-title h3 {
     font-size: 20px;
 }
@@ -142,7 +145,44 @@ transform: rotate(35deg) scale(1);
     text-align: right;
     color: #e02c6d;
 }
-/* footer */
+/*================
+ =====contact====
+ ================ */
+ .contact-from{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.contact{
+margin-top: 30px;
+}
+.contact h1{
+font-size: 43px;
+}
+.contact p{
+padding: 12px 0;
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+    grid-row-gap: 9px;
+}
+.login,input,button {
+    border: none;
+    box-shadow: 2px 1px 8px;
+    border-radius: 5px;
+}
+.login button{
+    margin-top: 8px;
+    background: #e02c6d;
+    font-size: 20px;
+    color: white;
+}
+
+/*================== 
+=====footer========
+================= */
 .footer {
     background-color: #0a0826;
     color: white;
